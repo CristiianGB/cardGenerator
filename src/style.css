@@ -1,1 +1,33 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  display: flex;
+  background-color: white;
+  margin: auto;
+  margin-top: 10px;
+  height: 400px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.top-suit {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 30px;
+}
+.number {
+  font-size: 150px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+.bottom-suit {
+  display: flex;
+  transform: rotate(-180deg);
+  justify-content: flex-start;
+  font-size: 30px;
+}

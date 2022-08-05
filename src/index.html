@@ -13,17 +13,39 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
+    <input
+      id="botonrobar"
+      class="btn btn-danger"
+      style="font-family:'Times New Roman', Times, serif; border-radius: 10px; margin-top: 20px; margin-left: 20px;"
+      type="button"
+      value="Vuelve a robar"
+    />
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      <div class="card container-fluid">
+        <div id="paloArriba" class="top-suit">♠</div>
+        <div id="numeroCarta" class="number">7</div>
+        <div id="paloAbajo" class="bottom-suit">♠</div>
       </div>
+    </div>
+    <div class="my-3 ms-3">
+      <label for="Ancho"><b>Ponle un ancho a la carta:</b></label>
+      <input
+        value="300px"
+        class="mx-2"
+        placeholder="en píxeles"
+        id="cambioAncho"
+        type="text"
+        name="anchura"
+      />
+      <label class="ms-3" for="Alto"><b>Ponle un alto a la carta:</b></label>
+      <input
+        value="400px"
+        class="mx-2"
+        placeholder="en píxeles"
+        id="cambioAlto"
+        type="text"
+        name="altura"
+      />
     </div>
   </body>
 </html>
